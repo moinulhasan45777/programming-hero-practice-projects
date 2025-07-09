@@ -338,3 +338,56 @@ input[type="submit"] {
   border-top-right-radius: 45px;
   border-bottom-right-radius: 45px;
 }
+
+/* footer styles */
+footer {
+  background-color: #070211;
+  color: #d1d1d1;
+  padding: 120px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  max-width: 375px;
+}
+
+.phone,
+.website {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: #353535;
+  margin: 40px 0;
+}
+.address-container img {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-container a {
+  text-decoration: none;
+  color: #d1d1d1;
+}
